@@ -26,12 +26,11 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View style={styles.View_1}>
-      <Text style={styles.Text_3}>
-        Sample text content a couple line breaks and more text
-      </Text>
+      <Text style={styles.Text_3}>Sample text content no line breaks</Text>
     </View>
   )
 }
+
 export default Blank = withStyles(_Blank, theme => ({
   container: {
     backgroundColor: theme["color-basic-100"]
